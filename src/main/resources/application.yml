@@ -1,0 +1,16 @@
+server:
+  port: 8888
+spring:
+  batch:
+    job:
+      enabled: false
+  jpa:
+    show-sql: true
+    generate-ddl: true
+
+logging:
+  level:
+    org.mybatis: INFO
+    com.zaxxer.hikari: INFO
+    org.springframework: INFO
+    org.springframework.data.elasticsearch.client.WIRE: TRACE
